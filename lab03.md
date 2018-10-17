@@ -39,6 +39,7 @@ RGB颜色模式是添加剂在这个意义上，这三个光束加在一起，�
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/16777216colors.png/300px-16777216colors.png)
 
+## 4、RGB
 
 **RGB格式**
 
@@ -66,7 +67,7 @@ R = (wPixel & RGB555_MASK_RED) >> 10; // 取值范围0-31
 G = (wPixel & RGB555_MASK_GREEN) >> 5; // 取值范围0-31
 B = wPixel & RGB555_MASK_BLUE; // 取值范围0-31
 
-
+![](https://en.wikipedia.org/wiki/File:CIExy1931_sRGB_gamut_D65.png)
 
 RGB565
 RGB565使用16位表示一个像素，这16位中的5位用于R，6位用于G，5位用于B。程序中通常使用一个字（WORD，一个字等于两个字节）来操作一个像素。当读出一个像素后，这个字的各个位意义如下：
