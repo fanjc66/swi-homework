@@ -1,10 +1,24 @@
 # part 1
 
 1) AND : 
-1. Boolean Expression : X = A•B ;
-1. 
+* Boolean Expression : X = A•B ;
+* Logic Diagram Sybol : 
 
+![](http://m.qpic.cn/psb?/V13dexGf2OLDRB/AflMy5TS0xFwuhL12xhtAxjXP7AzfTtipZSaDm8KAHc!/b/dDcBAAAAAAAA&bo=AQHOAAAAAAADF*w!&rf=viewer_4)
 
+* Truth Table : 
 
-![](https://baike.baidu.com/pic/%E9%80%BB%E8%BE%91%E9%97%A8/5141155/0/a2cc7cd98d1001e961ea3d1fbf0e7bec55e797cf?fr=lemma&ct=single)
+ |   A   |   B   |   X   |
+ |:------|:------|:------|
+ |0      |0      |0      |
+ |0      |1      |0      |
+ |1      |0      |0      |
+ |1      |1      |1      |
 
+ 2) OR
+ * Boolean Expression : X=A+B ;
+ * Lofic Diagram Sybol : 
+
+ ![](http://m.qpic.cn/psb?/V13dexGf2OLDRB/bASk2K02SLgxUqgV2GRAlxnBxu5M2711UBjObURTq0g!/b/dFQBAAAAAAAA&bo=3AD2AAAAAAADFxg!&rf=viewer_4)
+
+ 
