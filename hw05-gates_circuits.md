@@ -1,6 +1,6 @@
 # part 1
 
-1) AND : 
+1) **AND** : 
 * Boolean Expression : X = A•B ;
 * Logic Diagram Sybol : 
 
@@ -15,10 +15,21 @@
  |1      |0      |0      |
  |1      |1      |1      |
 
- 2) OR
- * Boolean Expression : X=A+B ;
+    当A/B都为一时，X为1；否则为0。
+
+ 2) **XOR**
+ * Boolean Expression : X=A⊕B ;
  * Lofic Diagram Sybol : 
 
- ![](http://m.qpic.cn/psb?/V13dexGf2OLDRB/bASk2K02SLgxUqgV2GRAlxnBxu5M2711UBjObURTq0g!/b/dFQBAAAAAAAA&bo=3AD2AAAAAAADFxg!&rf=viewer_4)
+ ![](http://m.qpic.cn/psb?/V13dexGf2OLDRB/HkRVu3QJ2l.xKiQt0OE6VGN0J.WnAqhWpjAarBz0c.8!/b/dFIBAAAAAAAA&bo=YgERAQAAAAADF0E!&rf=viewer_4)
 
- 
+* Truth Table : 
+
+|   A   |   B   |   C   |
+|:------|:------|:------|
+|0      |0      |0      |
+|0      |1      |1      |
+|1      |0      |1      |
+|1      |1      |0      |
+
+    当A/B相等时X为0；否则为1.
