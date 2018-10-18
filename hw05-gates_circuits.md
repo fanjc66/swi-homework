@@ -36,6 +36,8 @@
 
 3) (A+B)(B+C):
 
+![](http://m.qpic.cn/psb?/V13dexGf2OLDRB/IWv44z.9ylQ6ZYBxGUnD8TsdYQPfcicMSE9hhY*HIR4!/b/dCEBAAAAAAAA&bo=hAYYBAAAAAARF74!&rf=viewer_4)
+
 4)  (A+B)⊕A'
 
 |A|B|A'|A+B|X|
