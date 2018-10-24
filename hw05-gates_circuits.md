@@ -57,3 +57,24 @@
 |1|1|0|0|0|1|0|
 
 # part 2
+
+6) 
+
+7) (x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>x<sub>4</sub>x<sub>3</sub>x<sub>2</sub>x<sub>1</sub>)<sub>2</sub> or (0000 1111)<sub>2</sub> = (x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>1111)<sub>2</sub>
+
+
+(x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>x<sub>4</sub>x<sub>3</sub>x<sub>2</sub>x<sub>1</sub>)<sub>2</sub> xor (0000 1111)<sub>2</sub> = (x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>0000)<sub>2</sub>
+
+
+((x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>x<sub>4</sub>x<sub>3</sub>x<sub>2</sub>x<sub>1</sub>)<sub>2</sub> and (1111 0000)<sub>2</sub>) or (not(x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>x<sub>4</sub>x<sub>3</sub>x<sub>2</sub>x<sub>1</sub>)<sub>2</sub> and (oooo 1111)<sub>2</sub>)= (x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>0000)<sub>2</sub>  = (x<sub>8</sub>x<sub>7</sub>x<sub>6</sub>x<sub>5</sub>1-x<sub>4</sub>1-x<sub>3</sub>1-x<sub>2</sub>1-x<sub>1</sub>)<sub>2</sub>
+
+
+
+
+
+# part 3
+
+**Logic gate:**  In electronics, a logic gate is an idealized or physical device implementing a Boolean function; that is, it performs a logical operation on one or more binary inputs and produces a single binary output. Depending on the context, the term may refer to an ideal logic gate, one that has for instance zero rise time and unlimited fan-out, or it may refer to a non-ideal physical device.
+
+**Boolean algebra:**  In mathematics and mathematical logic, Boolean algebra is the branch of algebra in which the values of the variables are the truth values true and false, usually denoted 1 and 0 respectively. Instead of elementary algebra where the values of the variables are numbers, and the prime operations are addition and multiplication, the main operations of Boolean algebra are the conjunction and denoted as ∧, the disjunction or denoted as ∨, and the negation not denoted as ¬. It is thus a formalism for describing logical relations in the same way that elementary algebra describes numeric relations. 
+
