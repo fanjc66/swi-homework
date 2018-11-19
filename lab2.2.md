@@ -20,6 +20,9 @@ player：王思聪。只能竖直上下移动。
 food: hotdog只能水平向左移动。
 
 2. 游戏设计
+![](
+https://s1.ax1x.com/2018/11/19/FpNKi9.png)
+
 
 |     CRC   |       |
 |:----------|:------|
@@ -31,8 +34,8 @@ food: hotdog只能水平向左移动。
 ||action: destory|
 ||event: on destroyed|
 ||action: Creat object trophy|
- 
 
+![](https://s1.ax1x.com/2018/11/19/FpNeZF.png)
 
 |     CRC   |       |
 |:----------|:------|
@@ -41,5 +44,13 @@ food: hotdog只能水平向左移动。
 ||Speed: 400|
 |collaborator|event:on collision with player|
 ||action: Destroy|
-||  Add 10 to score|
+||  Addss 10 to score|
 || Set text to "Text:"&score|
+
+
+
+
+
+![](https://s1.ax1x.com/2018/11/19/FpU7ct.gif)
+
+
