@@ -2,7 +2,7 @@
 
 ## 课后作业
 
-1. [01-使用维基百科（Wikipedia）解释名词](hw01)
+1. [01-使用维基百科（Wikipedia）解释名词](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw01.md)
 2. [02-进制转换与名词解释](hw02)
 3. [03-数据表示](hw03)
 4. [04-色彩编码](hw04)
