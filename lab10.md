@@ -27,9 +27,13 @@
 
 2. 线性代数作业
 
-点积
+点积：
 
 ![](https://s1.ax1x.com/2018/11/22/FPGf0S.png)
+
+矩阵的逆：
+
+![](https://s1.ax1x.com/2018/11/22/FPJBuV.png)
 
 
 
