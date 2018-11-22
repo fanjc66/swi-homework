@@ -33,6 +33,10 @@
 
 矩阵的逆：
 
+![FPo9df.png](https://s1.ax1x.com/2018/11/22/FPo9df.png)
+
+或者用下面这种更简便的方法
+
 ![](https://s1.ax1x.com/2018/11/22/FPJBuV.png)
 
 
