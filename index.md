@@ -27,7 +27,7 @@
 10. [10-python 编程实验报告](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab10.md)
 11. [11-IT伦理与道德研究](lab11)
 12. [12-我喜欢的X语言](lab12)
-13. [13-贪吃蛇实验报告](lab13)
+13. [13-贪吃蛇实验报告](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab.13.md)
 14. [14-IT风投之我见](lab14)
 15. [15-智能蛇实验报告](lab15)
 16. [16-互联网时代的盈利模式](lab16)
