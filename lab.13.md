@@ -6,7 +6,7 @@
 * 使用伪代码表示算法
 * 使用函数抽象过程
 
-
+二、实验步骤
 1. 整体伪代码
 
 ```
@@ -25,7 +25,7 @@
 ```
 
 
-c语言实现（任务一）会动的蛇 
+2. c语言实现（任务一）会动的蛇 
 
 第一部分：函数原型 初始化
 
@@ -47,6 +47,8 @@ void putFood();
 void output();
 
 int isgameover();
+
+void isGotfood();
 
 int y_position[MAX_LENGTH] = {1, 1, 1, 1, 1};  // 纵坐标
 int x_position[MAX_LENGTH] = {1, 2, 3, 4, 5};  // 横坐标
@@ -75,6 +77,8 @@ int main()
 
 	while (!isgameover())			// 判断游戏是否结束 
 	{
+		isGotfood();                //判断是否吃到食物
+
 		scanf(" %c", &ch);						
 		switch (ch)			//读取操作指令
 		{
@@ -166,11 +170,38 @@ void output(void)
 }
 ```
 （3）判断游戏是否结束
+
+
+![Fl59OI.gif](https://s1.ax1x.com/2018/12/05/Fl59OI.gif)
+
+3. c语言实现（任务二：会吃的蛇）
+
 ```
-int isgameover(void)  //蛇头碰到墙，则游戏结束
+snake_eat.c
+```
+
+（1) snake 头撞到身体、障碍（边界或你在地图中定义） 游戏结束
+```
+int isgameover(void)  
 {
 	int i, j;
-	for (i = 0; i < snake_length; ++i)   
+	
+	
+	//蛇头碰到蛇身，游戏结束
+	int position[12][12] = {{0}};
+	for (i = 0; i < snake_length; ++i)
+	{
+		position[y_position[i]][x_position[i]]++;
+	} 
+	for (i =1; i < 12; ++i)
+	{
+		for (j = 1; j < 12; ++j)
+		if (position[i][j]>1) return 1;
+	}
+
+
+	//蛇头碰到墙，则游戏结束
+	for (i = 0; i < snake_length; ++i)
 	{
 		if (y_position[i] == 0 || x_position[i] == 0 || y_position[i] == 11 || x_position[i] == 11)
 			return 1;
@@ -178,5 +209,47 @@ int isgameover(void)  //蛇头碰到墙，则游戏结束
 	return 0;
 }
 ```
+（2）
+snake 头吃到食物，snake就长一节
 
-![Fl59OI.gif](https://s1.ax1x.com/2018/12/05/Fl59OI.gif)
+
+```
+void grow()
+{
+	int i;
+	snake_length++;   //蛇长加一
+	for (i = snake_length-1; i>0; i--)
+	{
+		y_position[i] = y_position[i-1];
+		x_position[i] = x_position[i-1];
+	}
+}
+
+```
+
+(3) 随机放置食物
+```
+void putFood()
+{
+	randx = rand()%10+1;
+	randy = rand()%10+1;
+	map[randy][randx] = '$';
+	
+}
+
+```
+
+（4）判断是否吃到食物
+```
+void isGotfood()
+{
+	if (y_position[snake_length-1] == randy && x_position[snake_length-1] == randx)
+	{
+		grow();
+		putFood();
+	}
+	
+}
+```
+
+![FlThH1.gif](https://s1.ax1x.com/2018/12/06/FlThH1.gif)
