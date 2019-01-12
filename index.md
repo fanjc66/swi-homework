@@ -30,7 +30,7 @@
 13. [13-贪吃蛇实验报告](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab.13.md)
 14. [14-IT风投之我见](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab14.md)
 15. [15-智能蛇实验报告](lab15)
-16. [16-互联网时代的盈利模式](lab16)
+16. [16-互联网时代的盈利模式](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab016.md)
 
 
 ## Markdown 语法演示
