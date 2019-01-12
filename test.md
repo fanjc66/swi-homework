@@ -9,3 +9,4 @@ Proof:
 \therefore if N(x) is a negative binary integer,  the most-significant bit can be repeated in all the extra bits.
 
 $f(x) = \sum_{i=0}^{N}\int_{a}^{b} g(t,i) \text{ d}t$
+$$f(x) = \sum_{i=0}^{N}\int_{a}^{b} g(t,i) \text{ d}t{6}\tag{1}$$
