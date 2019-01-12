@@ -1,6 +1,6 @@
 Proof:
 
-\because Positional Notation $(x){2}$ = \sum_{i=1}^{k} $d_{i}$ $2^{i-1}$
+\because Positional Notation $(x){2}$ = \sum_{i=1}^{k}$d_{i}$ $2^{i-1}$
 
 \because Two's complement N(x) = $2^{k}$ - x, where k is the number of bits for an integer and , N'(x) = $s^{m}$ - x where m>k
 
