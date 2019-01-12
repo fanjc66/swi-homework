@@ -7,3 +7,5 @@ Proof:
 \therefore N'(x) = $2^{m}$ - 1 = (2-1) \sum_{i=1}^{m} $2^{i-1}$, that is m bits 1. So the same, ($2^{k}$-1) is k bits 1
 
 \therefore if N(x) is a negative binary integer,  the most-significant bit can be repeated in all the extra bits.
+
+$f(x) = \sum_{i=0}^{N}\int_{a}^{b} g(t,i) \text{ d}t$
