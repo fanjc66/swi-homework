@@ -2,7 +2,7 @@
 
 ## 课后作业
 
-1. [01-使用维基百科（Wikipedia）解释名词](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw01.md)
+1. [01-使用维基百科（Wikipedia）解释名词](hw01)
 2. [02-进制转换与名词解释](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw02.md)
 3. [03-数据表示](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw03.md)
 4. [04-色彩编码](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw04.md)
@@ -13,7 +13,7 @@
 9. [09-面向对象的设计](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw09.md)
 10. [10-排序算法]()
 
-[test](https://github.com/fanjc66/swi-homework/blob/gh-pages/test.md)
+[test](test)
 ## 实验与实践
 
 1. [01-我的 Markdown 博客](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab01.md)
