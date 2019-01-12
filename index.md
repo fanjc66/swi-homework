@@ -13,6 +13,7 @@
 9. [09-面向对象的设计](https://github.com/fanjc66/swi-homework/blob/gh-pages/hw09.md)
 10. [10-排序算法]()
 
+[test](https://github.com/fanjc66/swi-homework/blob/gh-pages/test.md)
 ## 实验与实践
 
 1. [01-我的 Markdown 博客](https://github.com/fanjc66/swi-homework/blob/gh-pages/lab01.md)
